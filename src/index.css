@@ -152,9 +152,26 @@ button i {
   pointer-events: none;
 }
 
+.searchbar {
+  display: flex;
+  align-items: center;
+}
+
 .searchbar input {
   border-radius: 1.5rem;
   outline: none;
   padding: 1rem 2rem;
   border-color: #0071f1;
+}
+
+.searchbar button {
+  background-color: #0071f1;
+  width: auto;
+  padding: 1rem 2rem;
+  margin-left: 2rem;
+  text-align: center;
+  border-radius: 1.5rem;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
